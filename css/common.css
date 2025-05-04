@@ -1,0 +1,78 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --accient-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Лого */
+.logo {
+  color: var(--title-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accient-color);
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--primary-bg-color);
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accient-color);
+}
+
+/* Хедер */
+.address-title {
+  color: var(--primary-bg-color);
+}
+.address-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accient-color);
+}
+.section-team {
+  background-color: rgba(245, 244, 250, 1);
+}
+/* site nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accient-color);
+}
+.auth-nav a {
+  color: var(--primary-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accient-color);
+}
+
+/* section */
+.section-title {
+  color: #212121;
+}
+.site-nav .link.current {
+  color: var(--accient-color);
+}
