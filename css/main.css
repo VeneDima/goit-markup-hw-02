@@ -51,6 +51,8 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 /* Хедер */
@@ -95,7 +97,7 @@ body {
 }
 
 /* site nav */
-.site-nav .link {
+.site-nav {
   color: var(--secondary-text-color);
 
   font-size: 14px;
@@ -199,7 +201,7 @@ body {
 /* Стили для Portfolio */
 
 /* button filter */
-.button.filter {
+.filter-button {
   color: var(--secondary-text-color);
   background-color: var(--filter-bg-color);
   font-size: 16px;
@@ -207,8 +209,8 @@ body {
   line-height: 1.63;
 }
 
-.button.filter:hover,
-.button.filter:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary-bg-color);
   background-color: var(--accient-color);
 }
@@ -225,5 +227,5 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.88;
+  line-height: 1.63;
 }
